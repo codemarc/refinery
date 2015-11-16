@@ -2,8 +2,8 @@
 
 Recently I was working on a data project and I need 
 to do a little cleanup on some of the data that had been 
-captured. In another life I had worked on a project named egret
-that was a branch of Google/Open Refine.
+captured. In another life I had worked on a [project named 
+egret](http://codemarc.net/egret) that was a branch of Google/Open Refine.
 
 I thought to myself, it would be useful to grab the latest 
 version of open refine and spin up a copy. So being a scripter
