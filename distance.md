@@ -31,7 +31,7 @@ them alphabetically
 <br/><br/>            
 # hamming
 Position to position character comparison. A 1 is added to the distance score for every character 
-that doesn\'t match. If the string lengths do not match, the difference size is added to the 
+that doesn't match. If the string lengths do not match, the difference size is added to the 
 distance score.  
 
 Use hamming for fast comparisons. It can find the minimum number of substitutions.
@@ -68,7 +68,7 @@ addresses. The time complexity of the calculation increases as the strings get l
 | **john smith**     | **smith, john**        | 10.0     |
 | **john smith**     | **smith, john w.**     | 12.0     |
 | **John w. smith**  | **smith, john w.**     | 13.0     |
-| **can\'t**         | **cant**               | 1.0      |
+| **can't**         | **cant**               | 1.0      |
 | **abcdef**         | **abcxyz**             | 3.0      |
             
 
@@ -91,7 +91,7 @@ the strings do not matter. Do not use to detect misspellings or typos.
 | **john smith**     | **smith, john**        | 2/2 | 1.0  |
 | **john smith**     | **smith, john w.**     | 2/3 | 0.67 | 
 | **John w. smith**  | **smith, john w.**     | 3/3 | 1.0  |
-| **can\'t**         | **cant**               | 0/3 | 0.0  |
+| **can't**         | **cant**               | 0/3 | 0.0  |
 | **abcdef**         | **abcxyz**             | 0/2 | 0.0  |
             
 
@@ -134,7 +134,7 @@ It then adjusts its score, favouring strings based on a common prefixes.
 | **john smith**     | **smith, john**        | 0.64     |
 | **john smith**     | **smith, john w.**     | 0.59     |
 | **John w. smith**  | **smith, john w.**     | 0.0      |
-| **can\'t**         | **cant**               | 0.95     |
+| **can't**         | **cant**               | 0.95     |
 | **abcdef**         | **abcxyz**             | 0.77     |
 
 
