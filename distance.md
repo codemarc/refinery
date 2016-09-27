@@ -34,7 +34,7 @@ Position to position character comparison. A 1 is added to the distance score fo
 that doesn\'t match. If the string lengths do not match, the difference size is added to the 
 distance score.  
 
-Use hamming for fast comparisons. It can find the minimum number of substitutions.'
+Use hamming for fast comparisons. It can find the minimum number of substitutions.
 
 
 | V1                 |V2                      | distance |  
@@ -102,7 +102,7 @@ string to a window of characters in the second string based on the length
 of the larger of the two strings.  
 
 It then factors in the number of transpositions or matching letters that 
-don\'t occur in the same order.  
+don't occur in the same order.  
 
 
 | V1                 |V2                      | distance |  
@@ -122,7 +122,7 @@ don\'t occur in the same order.
 Character by character comparison that limits matching of the first string to a window of 
 characters in the second string based on the length of the larger of the two strings.  
 
-It then factors in the number of transpositions or matching letters that don\'t occur in the same order.  
+It then factors in the number of transpositions or matching letters that don't occur in the same order.  
 It then adjusts its score, favouring strings based on a common prefixes.
 
 
@@ -144,7 +144,7 @@ It then adjusts its score, favouring strings based on a common prefixes.
 Character by character comparison that limits matching of the first string to a window of 
 characters in the second string based on the length of the larger of the two strings.  
 
-It then factors in the number of transpositions or matching letters that don\'t occur in the 
+It then factors in the number of transpositions or matching letters that don't occur in the 
 same order.  
 
 It then adjusts its score, favouring strings based on a common prefixes.  
@@ -167,8 +167,8 @@ documents or sentences. Therefore this distance calculation is used for tokens /
 
 
 <br/><br/>
-# ppm (prediction partial matchint)
-Given a set of symbols in a stream, it try\'s to predict the next symbol in the stream. 
+# ppm (prediction partial match)
+Given a set of symbols in a stream, it try's to predict the next symbol in the stream. 
 See [ppm](http://en.wikipedia.org/wiki/Prediction_by_partial_matching) for a detailed explanation
 
 <br/><br/>
@@ -240,7 +240,7 @@ for a detailed explanation.
 
 <br/><br/>        
 # euclidean
-The "ordinary" distance between two points. See [euclidean](http://en.wikipedia.org/wiki/Euclidean_distance">) 
+The "ordinary" distance between two points. See [euclidean](http://en.wikipedia.org/wiki/Euclidean_distance) 
 for a detailed explanation.
 
 <br/><br/><br/><br/>    
